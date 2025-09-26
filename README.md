@@ -25,7 +25,6 @@ The project also includes a visualization that draws the **100 most populous cit
 
 `city.py` defines a `City` class to store city attributes and draw them on a map.  
 
-```python
 city = City(country_code, name, region, population, latitude, longitude)
 print(city)   # -> "New York,8175133,40.7128,-74.0060"
 city.draw(CX, CY)  # draws city on map
